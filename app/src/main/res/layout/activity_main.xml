@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#8A7676"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+
+        android:layout_margin="10dp"
+        android:id="@+id/my_dairy"
+        android:text="My Dairy"
+        android:textStyle="bold"
+        android:textColor="#6A3CAC"
+        android:textAppearance="?android:textAppearance"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edit_text_id"
+        android:textColor="#000"
+        android:gravity="start"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:lines="15"
+        android:background="@drawable/shape_xml"
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+         />
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/save_data_id"
+            android:text="Save Text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
